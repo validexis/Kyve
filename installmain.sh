@@ -10,7 +10,7 @@ echo "export PATH=$PATH:/usr/local/go/bin:/usr/local/bin:$HOME/go/bin" >> $HOME/
 source $HOME/.bash_profile
 
 cd $HOME && mkdir -p go/bin/
-wget -O kyved https://github.com/KYVENetwork/chain/releases/download/v1.5.0/kyved_mainnet_linux_amd64
+wget -O kyved https://github.com/KYVENetwork/chain/releases/download/v2.0.0/kyved_mainnet_linux_amd64
 chmod +x kyved
 sudo mv kyved $HOME/go/bin/kyved
 
